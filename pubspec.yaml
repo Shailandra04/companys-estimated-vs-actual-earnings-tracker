@@ -1,0 +1,24 @@
+name: tracker
+description: A Flutter app to track company earnings.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # Use the latest compatible version
+  fl_chart: ^0.65.0  # Downgrade to this version
+  provider: ^6.1.2  # This is already the latest
+
+dev_dependencies:
+  flutter_lints: ^2.0.0  # Make sure to use the latest version
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
